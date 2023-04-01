@@ -125,9 +125,10 @@ header{
     padding: 30px 10%;
 }
 
-.logo{
+.logo h1{
     cursor: pointer;
     color: white;
+    font-size: 32px;
 
 }
 
