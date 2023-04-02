@@ -15,6 +15,10 @@ body{
     color: #aaa;
 }
 
+.contactWriteUp .nameOnContactPage{
+    text-decoration: underline;
+}
+
 .posts {
     text-align: center;
     color: #edf0f1;
