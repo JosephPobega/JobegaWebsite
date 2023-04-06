@@ -30,9 +30,9 @@ body{
     margin: 3%;
 }
 
-/*
+
 .footer{
-    position: sticky;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -94,7 +94,7 @@ body{
     font-size: 13px;
     color: #aaa;
 }
-*/
+
 
 .uzigif{
     display: block;
