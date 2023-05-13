@@ -100,16 +100,6 @@ body{
 }
 
 
-.uzigif{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    border-radius: 30px;
-    overflow-y: auto;
-    
-}
-
 .SmartHomeLink{
     color: lightblue;
     text-decoration: underline;
