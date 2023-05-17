@@ -149,6 +149,17 @@ header{
     overflow-y: auto;
 }
 
+.post2WriteUp{
+    text-align: center;
+    color:#edf0f1;
+    overflow-y: auto;
+}
+
+.SQlHeader{
+    text-align: center;
+    color: white;
+}
+
 .aboutheader h1{
     text-align: center;
     color: #edf0f1;
