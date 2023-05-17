@@ -11,6 +11,11 @@ body{
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
+    margin: 0;
+    }
+
+    .content-wrapper {
+        flex: 1;
 }
 
 .recentPostHeader{
@@ -37,6 +42,7 @@ body{
 .footer{
     flex-shrink: 0;
     position: absolute;
+    flex: 1;
     bottom: 0;
     left: 0;
     right: 0;
@@ -128,6 +134,10 @@ header{
 
 }
 
+.logo:hover{
+    opacity: 0.7;
+}
+
 .dexterHeader{
     text-align: center;
     color: #edf0f1;
@@ -166,7 +176,7 @@ header{
 }
 
 .nav__links li a:hover{
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 button{
@@ -265,3 +275,4 @@ button:hover{
     clear: both;
     display: table;
   }
+
