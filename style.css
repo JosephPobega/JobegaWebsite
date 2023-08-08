@@ -155,6 +155,12 @@ header{
     overflow-y: auto;
 }
 
+.post3WriteUp{
+    text-align: center;
+    color:#edf0f1;
+    overflow-y: auto;
+}
+
 .SQlHeader{
     text-align: center;
     color: white;
