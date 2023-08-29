@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    background-color: #5965a5;
 }
 
 body{
@@ -130,7 +130,7 @@ header{
 .logo h1{
     cursor: pointer;
     color: white;
-    font-size: 32px;
+    font-size:large;
 
 }
 
@@ -179,24 +179,26 @@ header{
     left: 0%;
 }
 
-.nav__links{
+.nav__links {
     list-style: none;
 }
 
-.nav__links li{
+.nav__links li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.nav__links li a{
+.nav__links li a {
+    line-height: 250%;
+    font-size: 35px; /* Adjust the font size to your preference */
     transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover{
+.nav__links li a:hover {
     opacity: 0.7;
 }
 
-button{
+button {
     padding: 9px 25px;
     background-color: purple;
     border: none;
@@ -205,9 +207,10 @@ button{
     transition: all 0.3s ease 0s;
 }
 
-button:hover{
-    opacity: 0.7;;
+button:hover {
+    opacity: 0.7;
 }
+
 
 .container {
     max-width: 480px;
@@ -318,4 +321,15 @@ button:hover{
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
+  }
+
+  .NameonMain h1{
+    font-size: 69px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .NameonMain h2{
+   font-size: 35px;
+   text-align: center;
   }
