@@ -12,18 +12,15 @@
 <body>
 
    <header>
-   <div class="logo">
-    <h1><a href="index.html">Jobega</a></h1>
-    </div>
 
     <nav>
+
         <ul class="nav__links">
+            <li><a href="index.html">Jobega</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
-    
-    <a class="contact" href="contact.html"><button>Contact</button></a>
 
    </header>
    <div class="bannerPicture"></div>
@@ -33,19 +30,45 @@
 
    <div class="NameonMain">
 
-        <h1>Joseph Pobega</h1>
+        <h1 id="typed-text">Joseph Pobega</h1>
         <h2>Software Developer</h2>
     </div>
 
 
+<script>
+    // Function to type out text gradually
+    function typeText(element, text, speed) {
+        let i = 0;
+        const typingInterval = setInterval(function() {
+            if (i < text.length) {
+                element.innerHTML += text.charAt(i);
+                i++;
+            } else {
+                clearInterval(typingInterval);
+            }
+        }, speed);
+    }
 
+    // Get the h1 element
+    const h1Element = document.getElementById("typed-text");
 
+    // The text you want to type out
+    const textToType = h1Element.textContent;
 
+    // Typing speed (adjust as needed)
+    const typingSpeed = 100; // milliseconds per character
 
+    // Check if the h1 element exists
+    if (h1Element) {
+        // Clear any existing content
+        h1Element.innerHTML = "";
 
-
-
-
+        // Start typing when the page is loaded
+        window.onload = function() {
+            typeText(h1Element, textToType, typingSpeed);
+        };
+    }
+</script>
 
 
 
@@ -77,11 +100,6 @@
                 <a href="mailto:joepobega@gmail.com"><img src="gmailLogo.png" width="50" height="50" alt="Email"></a>
             </div>
 
-    <ul class="list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>   
-        </ul>
 
         <p class="copyright">Jobega @ 2023</p>
     </div>
