@@ -1,3 +1,3 @@
 # JobegaWebsite
-Just my personal website that i'm currently working on.<br>
+Personal website that i'm currently working on.<br>
 http://jobega.net/
