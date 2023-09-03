@@ -12,10 +12,16 @@ body{
     font-weight: 400;
     margin: 0;
     background-color: #5965a5;
+    padding: 10px;
     }
 
     .content-wrapper {
         flex: 1;
+}
+
+.container{
+    flex: 1;
+    padding: 10px
 }
 
 /* Style the banner header */
@@ -48,13 +54,12 @@ body{
 
 
 .footer{
-    flex-shrink: 0;
-    position: absolute;
-    flex: 1;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
-    height:100px;
+    width: 100%;
     
 }
 
@@ -231,6 +236,7 @@ button:hover {
 
 .image-description {
     text-align: center;
+    font-size: 22px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -253,7 +259,7 @@ button:hover {
 .quote {
     text-align: center;
     margin-top: 10px; 
-    font-size: large;
+    font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
 }
 
