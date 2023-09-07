@@ -11,7 +11,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     margin: 0;
-    background-color: #5965a5;
+    background-color: #F8F0E3;
     padding: 10px;
     }
 
@@ -21,7 +21,8 @@ body{
 
 .container{
     flex: 1;
-    padding: 10px
+    padding: 20px;
+    padding-bottom: 60px;
 }
 
 /* Style the banner header */
@@ -29,6 +30,7 @@ body{
     background-color: #404040; 
     text-align: center;
     padding: 20px 0; 
+    margin-bottom: 20px;
 }
 
 .banner ul {
@@ -55,19 +57,23 @@ body{
 
 
 .footer{
-    text-align: center;
-    color: white;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333; /* You can adjust the background color as needed */
+        padding: 10px 0; /* Add padding to improve visual appearance */
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
 .footer .social{
     text-align: center;
     padding-bottom: 10px;
     color:#4b4c4d;
+    padding: 10px 0;
     
 }
 
@@ -93,6 +99,7 @@ body{
     text-align: center;
     font-size: 13px;
     color: #aaa;
+    margin-top: 20px;
 }
 
 
@@ -232,6 +239,7 @@ button:hover {
     text-align: center;
     max-width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 /* Carousel images */
@@ -265,22 +273,58 @@ button:hover {
 
 
 .quote {
+    margin-top: 20px;
     text-align: center;
     margin-top: 10px; 
     font-size: 22px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
 }
 
 .separatorTop {
     border: none;
     border-top: 1px solid black; /* Create a 1px solid black top border */
     margin: 20px auto; /* Center the line horizontally and set top margin */
-    max-width: 200px; /* Set a maximum width for the line */
+    max-width: 600px; /* Set a maximum width for the line */
 }
 
 .separatorBottom {
     border: none;
     border-top: 1px solid black; /* Create a 1px solid black top border */
     margin: 20px auto; /* Center the line horizontally and set top margin */
-    max-width: 200px; /* Set a maximum width for the line */
+    max-width: 600px; /* Set a maximum width for the line */
+}
+
+.projectsSection h2{
+    font-size: 40px;
+}
+
+.projectsSection{
+    text-align: center;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.project-link{
+    color: #333;
+}
+
+.openSmartHome{
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+
+.awardsAchievements{
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.awardsAchievements h2{
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
 }

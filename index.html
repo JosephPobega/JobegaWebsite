@@ -52,21 +52,16 @@
             }, speed);
         }
     
-        // Get the h1 element
         const h1Element = document.getElementById("typed-text");
     
-        // The text you want to type out
+   
         const textToType = h1Element.textContent;
     
-        // Typing speed (adjust as needed)
-        const typingSpeed = 100; // milliseconds per character
+        const typingSpeed = 100; 
     
-        // Check if the h1 element exists
         if (h1Element) {
-            // Clear any existing content
             h1Element.innerHTML = "";
     
-            // Start typing when the page is loaded
             window.onload = function() {
                 typeText(h1Element, textToType, typingSpeed);
             };
@@ -78,14 +73,14 @@
 
 
 <div class="carousel">
-    <img src="ACpic.jpg" alt="Image 1" data-description="Description: Image 1">
-    <p class="image-description">Harrahs Resort AC, NJ - 2020</p>
+    <img src="pictures/ACpic.jpg" alt="Image 1" data-description="Description: Image 1">
+    <p class="image-description">Harrahs Resort AC, NJ - 2020<br>📷 Joseph Pobega</p>
 
-    <img src="holmdelPark.jpg" alt="Image 2" data-description="Description: Image 2">
-    <p class="image-description">Holmdel Park, NJ - 2020</p>
+    <img src="pictures/holmdelPark.jpg" alt="Image 2" data-description="Description: Image 2">
+    <p class="image-description">Holmdel Park, NJ - 2020<br>📷 Joseph Pobega</p>
 
-    <img src="chinatownNYC.jpg" alt="Image 3" data-description="Description: Image 3">
-    <p class="image-description">China Town, NYC - 2020</p>
+    <img src="pictures/chinatownNYC.jpg" alt="Image 3" data-description="Description: Image 3">
+    <p class="image-description">China Town, NYC - 2020<br>📷 Joseph Pobega</p>
 
     <!-- Previous and Next buttons -->
     <i class="prev fa fa-chevron-left" onclick="changeImage(-1)"></i>
@@ -105,10 +100,10 @@ function showImage(index) {
     images.forEach((image, i) => {
         if (i === index) {
             image.style.display = 'block';
-            descriptions[i].style.display = 'block'; // Show the corresponding description
+            descriptions[i].style.display = 'block';
         } else {
             image.style.display = 'none';
-            descriptions[i].style.display = 'none'; // Hide other descriptions
+            descriptions[i].style.display = 'none';
         }
     });
 
@@ -127,14 +122,13 @@ function changeImage(offset) {
     showImage(newIndex);
 }
 
-// Initially, show the first image and its description
 showImage(currentIndex);
 
 </script>
 
 <!------------------------------------->
 
-
+    <br>
     <hr class="separatorTop">
     <div class="quote">
         <p>“If you're going to try, go all the way. Otherwise, don't even start." <br>
