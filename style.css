@@ -25,30 +25,35 @@ body{
     padding-bottom: 60px;
 }
 
-/* Style the banner header */
 .banner {
-    background-color: #404040; 
-    text-align: center;
-    padding: 20px 0; 
-    margin-bottom: 20px;
+    background-image: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 15px,
+        #e0e0e0 15px,
+        #e0e0e0 30px
+    );
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; 
 }
 
 .banner ul {
     list-style: none;
-    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .banner li {
     display: inline;
-    margin: 0 10px; 
+    margin-right: 10px;
 }
 
 .banner a {
     text-decoration: none;
-    color: #fff; 
-    font-size: 18px; 
-    font-weight: bold;  
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    color: #333;
+    font-weight: bold;
 }
 
 .banner a:hover {
