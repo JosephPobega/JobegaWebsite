@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     margin: 0;
@@ -25,6 +26,8 @@ body{
     padding-bottom: 60px;
 }
 
+
+
 .banner {
     background-image: repeating-linear-gradient(
         45deg,
@@ -36,7 +39,8 @@ body{
     height: 75px;
     display: flex;
     align-items: center;
-    padding-left: 20px; 
+    justify-content: center; /* Center the content horizontally */
+    padding-left: 20px;
 }
 
 .banner ul {
@@ -53,7 +57,7 @@ body{
 .banner a {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
+    font-size: 20px; /* Adjust the font size as needed */
 }
 
 .banner a:hover {

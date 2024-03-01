@@ -36,7 +36,8 @@ body{
     height: 75px;
     display: flex;
     align-items: center;
-    padding-left: 20px; 
+    justify-content: center; /* Center the content horizontally */
+    padding-left: 20px;
 }
 
 .banner ul {
@@ -54,11 +55,13 @@ body{
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    font-size: 20px; /* Adjust the font size as needed */
 }
 
 .banner a:hover {
     opacity: 0.7;
 }
+
 
 
 .footer{
@@ -338,6 +341,53 @@ button:hover {
 
 .awardsAchievements h2{
     text-align: left;
-    max-width: 600px;
+    max-width: 100px;
     margin: 20px auto;
+}
+
+.skills-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 35vw; /* Adjust the width as needed */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    padding-left: 2.5vw; /* Add padding to the left side */
+    padding-right: 2.5vw; /* Add padding to the right side */
+}
+
+.skills-container h3{
+    padding-bottom: 20px;
+}
+.skill-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill {
+    width: calc(25% - 20px); /* Adjust the width to fit 4 skills per row */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skill img {
+    width: 105px; /* Adjust the width of the images */
+    height: 80px; /* Adjust the height of the images */
+    margin-bottom: 5px;
+}
+
+.skill-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.skill-list li:last-child {
+    margin-bottom: 0; 
 }
